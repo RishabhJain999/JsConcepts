@@ -78,3 +78,18 @@ console.log(EmployeeFS.prototype);
 */
 
 console.log(uniqueEmployee.company);
+
+// class Keyword to implememt classes in js
+class University {
+  college: string;
+  location: string;
+  constructor(college: string, location: string) {
+    this.college = college;
+    this.location = location;
+  }
+  getCollegeDetails = () => {
+    return `College name is ${this.college} and location is ${this.location}`;
+  };
+}
+const college1 = new University('Abesit', 'Ghaziabad');
+console.log(University.prototype);

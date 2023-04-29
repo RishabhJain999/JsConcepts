@@ -1,4 +1,4 @@
-//usage --> used when we used to ma values to key. Data is stored in key-valurs pair.
+//usage --> used when we used to map values to key. Data is stored in key-values pair.
 
 // First way (using set method)
 export const MapFn = () => {
